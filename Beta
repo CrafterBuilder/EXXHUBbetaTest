@@ -168,7 +168,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "FE Fake Lag",
 	Callback = function()
-      		loadstring(game:HttpGet('https://pastebin.com/LkyTVzUq'))()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/CrafterBuilder/FEfakelag/refs/heads/main/FEfakeLag'))()
   	end    
 })
 
