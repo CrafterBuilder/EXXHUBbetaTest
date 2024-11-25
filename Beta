@@ -265,7 +265,7 @@ local Section = Tab:AddSection({
 
 
 Tab:AddButton({
-	Name = "Invisible FE",
+	Name = "ANTI AFK EXXHUB",
 	Callback = function()
       		wait(0.5)local ba=Instance.new("ScreenGui")
 local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
