@@ -172,10 +172,17 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "FE G00LXPLOITER",
+	Callback = function()
+      		loadstring(game:HttpGet("https://rawscripts.net/raw/Prison-Life-FE-Bypass-Gui-12350"))()
+  	end    
+})
+
+
 local Section = Tab:AddSection({
 	Name = "ANTI AFK by EXX HUB"
 })
-
 
 Tab:AddButton({
 	Name = "ANTI AFK EXXHUB",
