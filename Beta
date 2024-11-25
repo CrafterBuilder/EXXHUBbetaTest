@@ -118,7 +118,7 @@ Callback = <function> - The function of the bind.
 ]]
 
 local Tab = Window:MakeTab({
-	Name = "ADD TOKEN",
+	Name = "凹凸世界:自由丛林",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -200,3 +200,28 @@ Tab:AddButton({
   	end    
 })
 
+local Tab = Window:MakeTab({
+	Name = "Misc",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+Tab:AddButton({
+	Name = "Speed Hack",
+	Callback = function()
+      		player.Character.Humanoid.WalkSpeed = 100
+  	end    
+})
+
+Tab:AddButton({
+	Name = "JumpPower",
+	Callback = function()
+      		player.Character.Humanoid.JumpPower = 100
+  	end    
+})
