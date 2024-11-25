@@ -24,7 +24,7 @@ Callback = <function> - The function of the bind.
 ]]
 
 local Tab = Window:MakeTab({
-	Name = "凹凸世界:自由丛林",
+	Name = "Place 凹凸世界:自由丛林",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
