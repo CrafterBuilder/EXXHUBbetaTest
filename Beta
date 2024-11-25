@@ -168,7 +168,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "FE Fake Lag",
 	Callback = function()
-      		loadstring(game:HttpGet('https://pastebin.com/TkpFs1zj'))()
+      		loadstring(game:HttpGet('https://pastebin.com/LkyTVzUq'))()
   	end    
 })
 
