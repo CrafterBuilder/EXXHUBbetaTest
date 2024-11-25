@@ -212,16 +212,49 @@ Icon = <string> - The icon of the tab.
 PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
 
+local Section = Tab:AddSection({
+	Name = "Speed And Jump"
+})
+
+
 Tab:AddButton({
-	Name = "Speed Hack",
+	Name = "NORMAL SPEED AND JUMP",
 	Callback = function()
       		player.Character.Humanoid.WalkSpeed = 100
+                player.Character.Humanoid.JumpPower = 100
   	end    
 })
 
 Tab:AddButton({
+	Name = "Speed Hack",
+	Callback = function()
+      		player.Character.Humanoid.WalkSpeed = 250
+  	end    
+})
+
+
+Tab:AddButton({
 	Name = "JumpPower",
 	Callback = function()
-      		player.Character.Humanoid.JumpPower = 100
+      		player.Character.Humanoid.JumpPower = 250
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "FE SCRIPT"
+})
+
+
+Tab:AddButton({
+	Name = "EmoteFE",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/eCpipCTH"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Invisible FE",
+	Callback = function()
+      		loadstring(game:HttpGet('https://pastebin.com/raw/3Rnd9rHf'))()
   	end    
 })
