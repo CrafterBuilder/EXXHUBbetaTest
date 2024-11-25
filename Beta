@@ -119,31 +119,12 @@ PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
 
 Tab:AddButton({
-	Name = "NOTHING",
+	Name = "Nothing",
 	Callback = function()
-      		local players = game:GetService("Players")
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "Weclome!";
-    Text = "Welcome, " .. players.LocalPlayer.DisplayName;
-    Icon = "rbxthumb://type=AvatarHeadShot&id=" .. players.LocalPlayer.UserId .. "&w=180&h=180 true";
-    Duration = 5
+      		player.Character.Humanoid.WalkSpeed = 60
+                player.Character.Humanoid.JumpPower = 65
+  	end    
 })
-})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 local Tab = Window:MakeTab({
 	Name = "Misc",
