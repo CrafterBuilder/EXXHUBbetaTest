@@ -220,8 +220,8 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "NORMAL SPEED AND JUMP",
 	Callback = function()
-      		player.Character.Humanoid.WalkSpeed = 100
-                player.Character.Humanoid.JumpPower = 100
+      		player.Character.Humanoid.WalkSpeed = 60
+                player.Character.Humanoid.JumpPower = 65
   	end    
 })
 
@@ -259,6 +259,13 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "FE Fake Lag",
+	Callback = function()
+      		loadstring(game:HttpGet('https://pastebin.com/raw/3Rnd9rHf'))()
+  	end    
+})
+
 local Section = Tab:AddSection({
 	Name = "ANTI AFK by EXX HUB"
 })
@@ -289,3 +296,13 @@ ab.Text="Roblox tried to kick u but i kicked him instead"wait(2)ab.Text="Status 
   	end    
 })
 
+local Section = Tab:AddSection({
+	Name = "ANTI LAG"
+})
+
+Tab:AddButton({
+	Name = "NO FOG",
+	Callback = function()
+      		
+  	end    
+})
