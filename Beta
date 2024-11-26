@@ -106,32 +106,6 @@ Tab:AddButton({
   	end    
 })
 
-
-local Tab = Window:MakeTab({
-	Name = "Animation/Emote",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
---[[
-Name = <string> - The name of the tab.
-Icon = <string> - The icon of the tab.
-PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
-]]
-
-local Section = Tab:AddSection({
-	Name = "NOTHING"
-})
-
-Tab:AddButton({
-	Name = "NOT WORKING",
-	Callback = function()
-         https:youtubr
-  	end    
-})
-
-
-
 local Tab = Window:MakeTab({
 	Name = "Avatar/CopyAvatar",
 	Icon = "rbxassetid://4483345998",
